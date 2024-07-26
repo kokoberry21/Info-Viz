@@ -1,0 +1,64 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    text-align: left
+}
+
+/*body>* {
+    width:50% ;
+}*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    color: #1b3b57;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+nav a{
+    color: #984242;
+    text-decoration: none;
+}
+
+nav li {
+
+    margin-right: 20px;
+}
+
+
+
+.group {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    outline: 1px solid red;
+    height: 100px;
+    color:  #5b809f
+}
+.image-container {
+    float: right;
+    margin-top: 10px; 
+    position: absolute;
+    top:0;
+    right:40px;
+    height:100%;
+    
+
+.right-image {
+    width: 600px; 
+    height: 600px; 
+    border-radius: 10px; add a border radius to make the image look nicer 
+}
